@@ -137,7 +137,7 @@ export default function SleepDiaryApp() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 font-sans pb-20 md:pb-0 text-slate-800">
+    <div className="min-h-screen bg-slate-50 font-sans pb-nav md:pb-0 text-slate-800">
 
       {/* Header */}
       <header className="bg-blue-900 text-white p-4 shadow-md sticky top-0 z-10">

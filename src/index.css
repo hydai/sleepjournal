@@ -22,3 +22,8 @@
 .pb-safe {
   padding-bottom: env(safe-area-inset-bottom);
 }
+
+/* Bottom padding to clear the fixed nav bar + safe area */
+.pb-nav {
+  padding-bottom: calc(6rem + env(safe-area-inset-bottom, 0px));
+}
